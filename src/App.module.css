@@ -1,0 +1,28 @@
+.appContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--gray-light);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 100%;
+    max-width: 1080px;
+    background-color: var(--white);
+    margin-bottom: 30px;
+
+
+}
+
+.header {
+    text-align: center;
+    color: var(--primary);
+    font-size: 4rem;
+
+
+}

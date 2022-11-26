@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styles from "./App.module.css";
+import { Modal } from "./components/UI";
+import { useTodo } from "./utils/contexts";
+import { TodoForm, TodoList } from "./components";
+import Button from "./components/UI/Button/Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.appContainer}>
+      <div className={styles.container}>
+        <h1 className={styles.header}>Todo List</h1>
+        <TodoForm mode="add" />
+        <TodoList />
+      </div>
     </div>
   );
 }

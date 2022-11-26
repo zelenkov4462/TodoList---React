@@ -1,0 +1,44 @@
+.button {
+    width: fit-content;
+    border-radius: var(--border-radius-s);
+    border: none;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    min-width: 100px ;
+    color: var(--white);
+    height: fit-content;
+
+}
+
+.add {
+    background: var(--primary);
+}
+
+.add:hover {
+    background-color: var(--primary-hover);
+}
+
+.edit {
+    background: var(--green);
+}
+
+.edit:hover {
+    background-color: var(--green-light);
+}
+
+.delete {
+    background: var(--red);
+}
+
+.delete:hover {
+    background-color: var(--red-light);
+}
+
+.file {
+    background: var(--blue);
+}
+
+.file:hover {
+    background-color: var(--blue-hover);
+}

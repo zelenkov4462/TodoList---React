@@ -1,0 +1,62 @@
+.containerWrap {
+    width: 500px;
+    height: 500px;
+    padding: 2rem;
+}
+
+.container {
+    border-radius: var(--border-radius-m);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background-color: var(--gray-light);
+}
+
+.header {
+    font-size: 3rem;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.data {
+    font-size: 1.5rem;
+
+}
+
+.description {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.file {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    height: 40%;
+    align-items: center;
+}
+
+.check {
+    font-size: 1.2rem;
+}
+
+.load {
+    color: var(--black);
+}
+
+.complete { color: var(--green)}

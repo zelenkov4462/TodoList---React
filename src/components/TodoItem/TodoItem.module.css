@@ -1,0 +1,79 @@
+.containerWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: var(--root);
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius-m);
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+    width: 500px;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.checked {
+    opacity: 0.8;
+    background-color: var(--green-light);
+}
+
+.failed {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.checkInput{
+    width: 30px;
+}
+
+.leftSide {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.dataTitle {
+    font-size: 1.2rem;
+}
+
+.date {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.rightSide {
+    display: flex;
+    gap: 5px;
+}
+.files {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.description {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--black-light);
+}
